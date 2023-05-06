@@ -154,7 +154,7 @@ const Map1 = () => {
   const handleClickOpenVehicle = (e, item) => {
     setOpenVehicle(true);
     setItem(item);
-    if(openBin) setOpenBin(false);
+    if (openBin) setOpenBin(false);
   };
 
   const handleCloseVehicle = (e) => {
@@ -165,7 +165,7 @@ const Map1 = () => {
   const handleClickOpenBin = (e, item) => {
     setOpenBin(true);
     setItem(item);
-    if(openVehicle) setOpenVehicle(false);
+    if (openVehicle) setOpenVehicle(false);
   };
 
   const handleCloseBin = (e) => {
@@ -190,7 +190,7 @@ const Map1 = () => {
     <Fragment>
       <Box sx={{ position: 'relative', with: '100%' }}>
         <Box sx={{ height: "calc(100vh - 64px - 5px)" }}>
-          <MapContainer center={[21.023396, 105.850094]} zoom={17} style={{ height: "inherit" }} scrollWheelZoom={true}
+          <MapContainer center={[20.9780419, 105.7916359]} zoom={17} style={{ height: "inherit" }} scrollWheelZoom={true}
 
           >
             <LayersControl position="topright">
